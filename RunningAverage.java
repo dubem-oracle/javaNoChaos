@@ -6,6 +6,7 @@ public class RunningAverage{
 
 	int sum = 0;
 	int count = 0;
+	double average = 0;
 
 	while (true){
 	    number = Number(prompt("Enter a number (-1 to stop): "));
